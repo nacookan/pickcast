@@ -1,0 +1,20 @@
+# Xcode build artifacts
+DerivedData/
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode user-specific settings (breakpoints, schemes, window layout)
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+._*

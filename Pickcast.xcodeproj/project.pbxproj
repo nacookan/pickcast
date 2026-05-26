@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABBCC000000000000000020 /* PickcastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC000000000000000010 /* PickcastApp.swift */; };
+		AABBCC000000000000000021 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC000000000000000011 /* PermissionView.swift */; };
+		AABBCC000000000000000023 /* TabLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC000000000000000015 /* TabLayout.swift */; };
+		AABBCC000000000000000024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC000000000000000016 /* ContentView.swift */; };
+		AABBCC000000000000000026 /* PaneLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC000000000000000018 /* PaneLayoutView.swift */; };
+		AABBCC000000000000000027 /* PaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC000000000000000019 /* PaneView.swift */; };
+		AABBCC000000000000000028 /* WindowPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC00000000000000001A /* WindowPickerView.swift */; };
+		AABBCC000000000000000029 /* StreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC00000000000000001B /* StreamManager.swift */; };
+		AABBCC00000000000000002A /* CaptureFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC00000000000000001C /* CaptureFrameView.swift */; };
+		AABBCC00000000000000002C /* WindowConfigurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCC00000000000000001D /* WindowConfigurer.swift */; };
+		AABBCC00000000000000002D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABBCC000000000000000040 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AABBCC00000000000000000E /* Pickcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABBCC000000000000000010 /* PickcastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickcastApp.swift; sourceTree = "<group>"; };
+		AABBCC000000000000000011 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		AABBCC000000000000000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABBCC000000000000000013 /* Pickcast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pickcast.entitlements; sourceTree = "<group>"; };
+		AABBCC000000000000000015 /* TabLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLayout.swift; sourceTree = "<group>"; };
+		AABBCC000000000000000016 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AABBCC000000000000000018 /* PaneLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneLayoutView.swift; sourceTree = "<group>"; };
+		AABBCC000000000000000019 /* PaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneView.swift; sourceTree = "<group>"; };
+		AABBCC00000000000000001A /* WindowPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowPickerView.swift; sourceTree = "<group>"; };
+		AABBCC00000000000000001B /* StreamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamManager.swift; sourceTree = "<group>"; };
+		AABBCC00000000000000001C /* CaptureFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureFrameView.swift; sourceTree = "<group>"; };
+		AABBCC00000000000000001D /* WindowConfigurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowConfigurer.swift; sourceTree = "<group>"; };
+		AABBCC000000000000000040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABBCC00000000000000000C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABBCC000000000000000002 /* = */ = {
+			isa = PBXGroup;
+			children = (
+				AABBCC00000000000000000F /* Pickcast */,
+				AABBCC000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABBCC000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABBCC00000000000000000E /* Pickcast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABBCC00000000000000000F /* Pickcast */ = {
+			isa = PBXGroup;
+			children = (
+				AABBCC000000000000000010 /* PickcastApp.swift */,
+				AABBCC000000000000000011 /* PermissionView.swift */,
+				AABBCC000000000000000012 /* Info.plist */,
+				AABBCC000000000000000013 /* Pickcast.entitlements */,
+				AABBCC000000000000000040 /* Assets.xcassets */,
+				AABBCC000000000000000030 /* Models */,
+				AABBCC000000000000000031 /* Views */,
+				AABBCC000000000000000032 /* Capture */,
+			);
+			path = Pickcast;
+			sourceTree = "<group>";
+		};
+		AABBCC000000000000000030 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AABBCC000000000000000015 /* TabLayout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AABBCC000000000000000031 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AABBCC000000000000000016 /* ContentView.swift */,
+				AABBCC000000000000000018 /* PaneLayoutView.swift */,
+				AABBCC000000000000000019 /* PaneView.swift */,
+				AABBCC00000000000000001A /* WindowPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AABBCC000000000000000032 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				AABBCC00000000000000001B /* StreamManager.swift */,
+				AABBCC00000000000000001C /* CaptureFrameView.swift */,
+				AABBCC00000000000000001D /* WindowConfigurer.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABBCC000000000000000004 /* Pickcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABBCC000000000000000006 /* Build configuration list for PBXNativeTarget "Pickcast" */;
+			buildPhases = (
+				AABBCC00000000000000000B /* Sources */,
+				AABBCC00000000000000000C /* Frameworks */,
+				AABBCC00000000000000000D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickcast;
+			productName = Pickcast;
+			productReference = AABBCC00000000000000000E /* Pickcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABBCC000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AABBCC000000000000000004 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AABBCC000000000000000005 /* Build configuration list for PBXProject "Pickcast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABBCC000000000000000002;
+			productRefGroup = AABBCC000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABBCC000000000000000004 /* Pickcast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABBCC00000000000000000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBCC00000000000000002D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABBCC00000000000000000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBCC000000000000000020 /* PickcastApp.swift in Sources */,
+				AABBCC000000000000000021 /* PermissionView.swift in Sources */,
+				AABBCC000000000000000023 /* TabLayout.swift in Sources */,
+				AABBCC000000000000000024 /* ContentView.swift in Sources */,
+				AABBCC000000000000000026 /* PaneLayoutView.swift in Sources */,
+				AABBCC000000000000000027 /* PaneView.swift in Sources */,
+				AABBCC000000000000000028 /* WindowPickerView.swift in Sources */,
+				AABBCC000000000000000029 /* StreamManager.swift in Sources */,
+				AABBCC00000000000000002A /* CaptureFrameView.swift in Sources */,
+				AABBCC00000000000000002C /* WindowConfigurer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABBCC000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABBCC000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AABBCC000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pickcast/Pickcast.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Pickcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.pickcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AABBCC00000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pickcast/Pickcast.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Pickcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.pickcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABBCC000000000000000005 /* Build configuration list for PBXProject "Pickcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBCC000000000000000007 /* Debug */,
+				AABBCC000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABBCC000000000000000006 /* Build configuration list for PBXNativeTarget "Pickcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBCC000000000000000009 /* Debug */,
+				AABBCC00000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABBCC000000000000000001 /* Project object */;
+}
