@@ -22,7 +22,7 @@ enum PaneRole: String, Codable, Transferable {
 }
 
 extension UTType {
-    static let paneRole = UTType(exportedAs: "app.pickcast.panerole")
+    static let paneRole = UTType(exportedAs: "com.nacookan.pickcast.panerole")
 }
 
 // MARK: - PaneView
