@@ -25,9 +25,18 @@ final class TabLayout: ObservableObject {
     func setWindow(_ window: SCWindow?, for role: PaneRole) {
         switch role {
         case .main:   mainWindow   = window
-        case .left:   leftWindow   = window; if window == nil { showLeft   = false }
-        case .right:  rightWindow  = window; if window == nil { showRight  = false }
-        case .bottom: bottomWindow = window; if window == nil { showBottom = false }
+        case .left:   leftWindow   = window
+        case .right:  rightWindow  = window
+        case .bottom: bottomWindow = window
+        }
+    }
+
+    func closePane(_ role: PaneRole) {
+        switch role {
+        case .main:   break
+        case .left:   leftWindow   = nil; showLeft   = false
+        case .right:  rightWindow  = nil; showRight  = false
+        case .bottom: bottomWindow = nil; showBottom = false
         }
     }
 
