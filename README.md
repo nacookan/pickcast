@@ -1,8 +1,16 @@
 # Pickcast
 
-**他のアプリのウィンドウを取り込んで、1つの画面にまとめて表示する macOS アプリです。ビデオ通話の画面共有時に複数ウィンドウをまとめて共有するための用途を想定しています。**
+他のアプリのウィンドウを取り込んで、1つの画面にまとめて表示する macOS アプリです。ビデオ通話の画面共有時に複数ウィンドウをまとめて共有するための用途を想定しています。
 
-**A macOS app that captures windows from other apps and arranges them in a unified multi-pane layout. Designed for sharing multiple windows at once during video calls.**
+A macOS app that captures windows from other apps and arranges them in a unified multi-pane layout. Designed for sharing multiple windows at once during video calls.
+
+![Pickcast screenshot](docs/screen1.png)
+
+---
+
+## ダウンロード
+
+最新バージョンは[リリースページ](../../releases/latest)からダウンロードできます。
 
 ---
 
